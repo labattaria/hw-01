@@ -1,0 +1,30 @@
+/* hero */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--white-logo-color);
+}
+
+/* section */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* hero button */
+
+.button {
+    color:#FFFFFF;
+    background-color: #2196F3;
+}

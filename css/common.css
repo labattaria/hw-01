@@ -1,0 +1,88 @@
+/* основной цвет текста #212121 */
+/* второй цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/* цвет тёмных фонов #2F303A */
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-logo-color: #FFFFFF;
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+.half-logo {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    text-decoration: none;
+    color: var(--white-logo-color);
+}
+
+.logo:hover {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* contacts */
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* footer */
+
+.address-background {
+    background-color: #2F303A
+}
+
+.address .address-city {
+    color: var(--white-logo-color);
+}
+
+.address .address-email {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.address .address-phone {
+    color: rgba(255, 255, 255, 0.6)
+}
